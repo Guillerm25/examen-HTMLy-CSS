@@ -7,9 +7,10 @@
 }
 /* cuerpo */
 body {
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
+  max-width: 1300px;
 }
 
 h2 {
@@ -118,20 +119,20 @@ main .dos {
   background-color: rgb(243, 237, 237);
   margin-top: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content:baseline
   
 }
 .dos img {
   margin-right: 100px;
   justify-content: center;
   align-items: center;
-  max-height: 600px;
+  max-height: 500px;
 }
 
 .maxima {
   align-items: center;
   text-align: justify;
-  padding: 80px;
+  padding: 50px;
 }
 .maxima img{
     display: none;
@@ -175,16 +176,20 @@ footer {
     }
 
     main .uno{
-        justify-content: start;
+        display:inline-block;
+        margin: auto;
     }
     .maxima{
         display: table-column-group;
+        
     }
     .maxima img{
-        display: initial;
+        display: block;
         width: 400px;
         align-items: center;
-        margin-right: 20px;
+        text-align: center;
+        margin:auto;
+        margin-bottom: 10px;
     }
     main .dos {
         background-color: rgb(243, 237, 237);
@@ -192,14 +197,14 @@ footer {
         min-width: 550px;
         align-items: center;
         text-align: center;
+        justify-content: space-between;
       }  
-    main .uno {
-        display:inline-block
-      } 
+   
     main article{
+      margin:auto;
      margin-top: 20px;
      align-items: center;
-     margin-left: 70px;
+     margin-left: 100px;
     }
     
 
