@@ -160,15 +160,18 @@ footer {
  
     .presentacion{
         display: none;
-
-    } 
-
+   
+    }
+    
     .mobil{
-        display: initial;
+        display: inline-table;
+        align-items: center ;
+        text-align: center;
+        margin: auto;
+
     }
     .mobil img{
       width: 600px;
-      align-items: center;
     }
     .dos .imagendos{
         display: none;
@@ -177,6 +180,8 @@ footer {
 
     main .uno{
         display:inline-block;
+        align-items: center ;
+        text-align: center;
         margin: auto;
     }
     .maxima{
